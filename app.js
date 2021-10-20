@@ -40,7 +40,7 @@ svG
   .data(data)
   .enter()
   .append("circle")
-    .attr("cx", d=>x(d.x))
-    .attr("cy", function(d){ return y(d.y) })
+    .attr("cx", d => x(d.x))
+    .attr("cy", d => y(d.y))
     .attr("r", 7)
 
